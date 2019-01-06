@@ -6,5 +6,5 @@ void runLC908();
 
 void main()
 {
-  runLC908();
+  runSkyline();
 }
