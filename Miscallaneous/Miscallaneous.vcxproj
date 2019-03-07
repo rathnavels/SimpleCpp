@@ -19,10 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{737977C5-ECC6-4AC5-9174-14877C4E480C}</ProjectGuid>
-    <RootNamespace>Misc</RootNamespace>
+    <ProjectGuid>{69E1ABCA-EFA0-47B2-B2FE-FEABA525B320}</ProjectGuid>
+    <RootNamespace>Miscallaneous</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>LeetCode</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -111,11 +110,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LeetCode01.cpp" />
-    <ClCompile Include="LeetCode02.cpp" />
-    <ClCompile Include="LeetCode908.cpp" />
+    <ClCompile Include="EPI_4_1.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="string.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
