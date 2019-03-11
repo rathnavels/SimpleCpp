@@ -1,4 +1,11 @@
 #include<iostream>
+#include<algorithm>
+
+struct BalancedStatusWithHeight
+{
+  bool balanced;
+  int height;
+};
 
 struct node
 {
@@ -8,6 +15,37 @@ struct node
 };
 
 node *root = NULL;
+
+BalancedStatusWithHeight CheckBalanced(node *tree);
+
+bool IsBalanced(node *root)
+{
+  return CheckBalanced(root).balanced;
+}
+
+BalancedStatusWithHeight CheckBalanced(node *tree)
+{
+  if(tree == NULL)
+  return {true, -1};
+
+  auto left_result = CheckBalanced(tree->leftChild);
+  if(!left_result.balanced)
+  {
+    return {false,0};
+  }
+
+  auto right_result = CheckBalanced(tree->rightChild);
+  if(!right_result.balanced)
+  {
+    return {false, 0};
+  }
+
+  bool is_balanced = abs(left_result.height - right_result.height) <= 1;
+  int height = std::max(left_result.height , right_result.height) +1;
+  return {is_balanced, height};
+}
+
+
 
 //-----------------------------------------------------------
 // search
@@ -129,7 +167,7 @@ void main()
   insert(45);
   insert(70);
   insert(30);
-  insert(80);
+  insert(10);
   insert(20);
 
   inorder(root); 
@@ -139,10 +177,10 @@ void main()
   postorder(root);
   std::cout << std::endl;
 
-  if(search(50))
-    std::cout << "It was found boys\n";
+  if(IsBalanced(root))
+    std::cout << "It is balanced boys\n";
   else
-    std::cout << "It was not found boys\n";
+    std::cout << "It is not balanced boys\n";
 
   std::cin.get();
 }
