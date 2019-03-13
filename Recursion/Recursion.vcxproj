@@ -112,6 +112,8 @@
   <ItemGroup>
     <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Palindrome.cpp" />
+    <ClCompile Include="Power.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

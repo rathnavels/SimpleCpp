@@ -1,10 +1,12 @@
 #include <iostream>
 
 int factorial(int);
+void runPalindromeCheck();
+void findPowerRecursion();
 
 int main()
 {
-  std::cout << factorial(0);
+  findPowerRecursion();
   std::cin.get();
   return 0;
 }

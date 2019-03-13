@@ -21,5 +21,11 @@
     <ClCompile Include="Factorial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Palindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Power.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
