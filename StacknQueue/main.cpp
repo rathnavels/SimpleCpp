@@ -8,7 +8,7 @@ using namespace std;
 
 void main()
 {
-  runQueue();
-//  runStack();
+
+  runStack();
   std::cin.get();
 }
