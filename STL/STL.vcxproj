@@ -113,6 +113,7 @@
     <ClCompile Include="MapStuff.cpp" />
     <ClCompile Include="SetStuff.cpp" />
     <ClCompile Include="STLmain.cpp" />
+    <ClCompile Include="UnorderedMapStuff.cpp" />
     <ClCompile Include="VectorStuff.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

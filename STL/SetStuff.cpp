@@ -1,12 +1,13 @@
 #include<iostream>
 #include<set>
+#include<unordered_set>
 #include<iterator>
 #include<string>
 #include<vector>
 
 using namespace std;
 
-void setTesting()
+void setTesting01()
 {
   std::set<int> s;
   s.insert(-1);
@@ -24,6 +25,29 @@ void setTesting()
 
   auto it2 = s.upper_bound(-1);
   cout << *it2;
+}
+
+
+//--------------------------------------------------------------------
+// setTesting_FindDuplicate
+//--------------------------------------------------------------------
+void setTesting_FindDuplicate()
+{
+  vector<int> arr = {2,5,7,3,1,6,3,9,8,5,2};
+  //vector<int>::iterator i = arr.begin();
+
+  unordered_set<int> main;
+
+  for(int i:arr)
+  {
+    if(main.find(i) == main.end())
+      main.insert(i);
+    else
+    {
+      std::cout << "The first duplicate is " << i;
+      return;
+    }
+  }
 }
 
 void setProblem()

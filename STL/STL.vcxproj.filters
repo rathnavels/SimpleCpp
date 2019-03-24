@@ -27,5 +27,8 @@
     <ClCompile Include="MapStuff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UnorderedMapStuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

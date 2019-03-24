@@ -4,13 +4,14 @@
 
 using namespace std;
 
-void setTesting();
+void setTesting01();
+void setTesting_FindDuplicate();
 void mapTesting();
 void setProblem();
 
 void main()
 {
-  setProblem();
+  mapTesting();
   std::cin.get();
 }
 

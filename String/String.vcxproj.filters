@@ -21,5 +21,8 @@
     <ClCompile Include="EPI_1002.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringPractice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

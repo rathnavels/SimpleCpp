@@ -1,8 +1,9 @@
 #include<iostream>
 
 void printIt();
+void longestCommonSubsequence();
 void main()
 {
-  printIt();
+ longestCommonSubsequence();
   std::cin.get();
 }

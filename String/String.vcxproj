@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClCompile Include="EPI_1002.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StringPractice.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
