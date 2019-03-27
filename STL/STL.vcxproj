@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EPI1002.cpp" />
     <ClCompile Include="MapStuff.cpp" />
     <ClCompile Include="SetStuff.cpp" />
     <ClCompile Include="STLmain.cpp" />
