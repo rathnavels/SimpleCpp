@@ -8,14 +8,6 @@
 
 using namespace std;
 
-void commonChars();
-
-void mapTesting()
-{
-
-  commonChars();
-  std::cin.get();
-}
 
 void commonChars()
 {
@@ -32,8 +24,8 @@ void commonChars()
   {
     for (int j = 0; j<A[i].size(); j++)
     {
-      if(i==0)
-      { 
+      if (i == 0)
+      {
         char c = A[i][j];
         count[c]++;
       }
@@ -43,30 +35,30 @@ void commonChars()
         localCount[c]++;
       }
     }
-    if(i>0)
+    if (i>0)
     {
-      for (auto itr = count.begin(); itr != count.end();  itr++)
+      for (auto itr = count.begin(); itr != count.end(); itr++)
       {
-          auto ct_itr = localCount.find(itr->first);
+        auto ct_itr = localCount.find(itr->first);
 
-          if(ct_itr!= localCount.end())
-          { 
-            itr->second = std::min(ct_itr->second, itr->second);
-          }
-          else
-          { 
-            itr->second = 0;
-          }
+        if (ct_itr != localCount.end())
+        {
+          itr->second = std::min(ct_itr->second, itr->second);
+        }
+        else
+        {
+          itr->second = 0;
+        }
       }
       localCount.clear();
     }
   }
-  
+
   for (auto itr : count)
   {
 
-    for(int i=0 ;i<itr.second; i++)
-      ret.push_back(std::string(1,itr.first));
+    for (int i = 0; i<itr.second; i++)
+      ret.push_back(std::string(1, itr.first));
   }
 
   std::cin.get();
