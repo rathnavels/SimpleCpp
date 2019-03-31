@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{60DFDC85-6130-46FA-BDE2-4CC20559E544}</ProjectGuid>
-    <RootNamespace>Arrays</RootNamespace>
+    <ProjectGuid>{6352DC1F-E337-46E7-AA1D-2DB5487214B6}</ProjectGuid>
+    <RootNamespace>InterviewingIO</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,10 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AddOneToArrayNumber.cpp" />
-    <ClCompile Include="FirstRepeat.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="QuickSortExample.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

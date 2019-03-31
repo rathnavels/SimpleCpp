@@ -1,7 +1,11 @@
+#include<iostream>
+
 void runQuickSort();
 void runFirstRepeat();
+void runAddOneToArrayNumber();
 
 void main()
 {
-  runFirstRepeat();
+  runAddOneToArrayNumber();
+  std::cin.get();
 }
