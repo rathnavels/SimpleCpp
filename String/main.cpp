@@ -2,8 +2,13 @@
 
 void printIt();
 void longestCommonSubsequence();
+void runStringStream();
+void runReverseVowels();
+void runIntToString();
+void runStringToInt();
+
 void main()
 {
- longestCommonSubsequence();
+  runIntToString();
   std::cin.get();
 }

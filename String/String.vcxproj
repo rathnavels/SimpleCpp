@@ -111,7 +111,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EPI_1002.cpp" />
+    <ClCompile Include="IntToString.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ReverseVowels.cpp" />
     <ClCompile Include="StringPractice.cpp" />
     <ClCompile Include="stringstreamPractice.cpp" />
   </ItemGroup>
