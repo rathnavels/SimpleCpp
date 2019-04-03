@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StacknQueue", "StacknQueue\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterviewingIO", "InterviewingIO\InterviewingIO.vcxproj", "{6352DC1F-E337-46E7-AA1D-2DB5487214B6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maths", "Maths\Maths.vcxproj", "{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{6352DC1F-E337-46E7-AA1D-2DB5487214B6}.Release|x64.Build.0 = Release|x64
 		{6352DC1F-E337-46E7-AA1D-2DB5487214B6}.Release|x86.ActiveCfg = Release|Win32
 		{6352DC1F-E337-46E7-AA1D-2DB5487214B6}.Release|x86.Build.0 = Release|Win32
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Debug|x64.ActiveCfg = Debug|x64
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Debug|x64.Build.0 = Debug|x64
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Debug|x86.Build.0 = Debug|Win32
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Release|x64.ActiveCfg = Release|x64
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Release|x64.Build.0 = Release|x64
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Release|x86.ActiveCfg = Release|Win32
+		{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

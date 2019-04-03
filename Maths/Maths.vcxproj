@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0AF29DED-B12D-4331-8FE9-84885F239AA9}</ProjectGuid>
-    <RootNamespace>String</RootNamespace>
+    <ProjectGuid>{1FDAEDFC-18AC-4224-993F-06A6DFC44C37}</ProjectGuid>
+    <RootNamespace>Maths</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,15 +110,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaseConversion.cpp" />
-    <ClCompile Include="EPI_1002.cpp" />
-    <ClCompile Include="IntToString.cpp" />
+    <ClCompile Include="hexBinDec.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ReplaceAndRemove.cpp" />
-    <ClCompile Include="ReverseVowels.cpp" />
-    <ClCompile Include="SpreadSheetEncoding.cpp" />
-    <ClCompile Include="StringPractice.cpp" />
-    <ClCompile Include="stringstreamPractice.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
