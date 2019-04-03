@@ -42,5 +42,8 @@
     <ClCompile Include="ReplaceAndRemove.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PalindromicString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

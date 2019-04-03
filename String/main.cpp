@@ -13,9 +13,10 @@ void runBaseConversion();
 void runSpreadsheetEncoding();
 void runReverseSpreadsheetEncoding();
 void runReplaceAndRemove();
+void runPalindromeString();
 
 void main()
 {
-  runReplaceAndRemove();
+  runPalindromeString();
   std::cin.get();
 }

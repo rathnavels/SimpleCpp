@@ -3,6 +3,9 @@
 #include<sstream>
 using namespace std;
 
+// Replace a with double d's
+// Remove b's
+
 void runReplaceAndRemove()
 {
   int size = 4;
