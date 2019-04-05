@@ -14,9 +14,13 @@ void runSpreadsheetEncoding();
 void runReverseSpreadsheetEncoding();
 void runReplaceAndRemove();
 void runPalindromeString();
+void runReverseSentence();
+void runReverseSentence2();
+void runLookAndSay();
+void runRomanNumeralMain();
 
 void main()
 {
-  runPalindromeString();
+  runRomanNumeralMain();
   std::cin.get();
 }

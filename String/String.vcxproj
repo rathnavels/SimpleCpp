@@ -113,10 +113,13 @@
     <ClCompile Include="BaseConversion.cpp" />
     <ClCompile Include="EPI_1002.cpp" />
     <ClCompile Include="IntToString.cpp" />
+    <ClCompile Include="LookAndSay.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PalindromicString.cpp" />
     <ClCompile Include="ReplaceAndRemove.cpp" />
+    <ClCompile Include="ReverseSentence.cpp" />
     <ClCompile Include="ReverseVowels.cpp" />
+    <ClCompile Include="RomanNumeral.cpp" />
     <ClCompile Include="SpreadSheetEncoding.cpp" />
     <ClCompile Include="StringPractice.cpp" />
     <ClCompile Include="stringstreamPractice.cpp" />
