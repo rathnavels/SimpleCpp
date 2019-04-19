@@ -1,5 +1,6 @@
 #include<string>
 #include<iostream>
+#include<sstream>
 using namespace std;
 
 void runIntToString()
@@ -16,7 +17,7 @@ void runIntToString()
   {
     int modul = x%10;
     //str = char(48 + modul) + str;
-    str +=  '0' + modul;
+    str += char (48 + modul);
     x /= 10;
   }
 
@@ -44,4 +45,73 @@ void runStringToInt()
     answer *= -1;
 
   cout << answer;
+}
+
+
+void runIntToString2()
+{
+  int x = 0;
+  stringstream sstr;
+  string str;
+  bool neg = false;
+  if(x<0)
+  { 
+    neg = true;
+    x = abs(x);
+  }
+  do
+  {
+    int mod = x %10;
+    sstr << char(48+mod);
+    x = x/10;
+  }while (x);
+  if(neg)
+    sstr << '-';
+
+  sstr >> str;
+  
+  std::cout << string{rbegin(str),rend(str)};
+}
+
+void runStringToInt2()
+{
+  string X = "-347";
+  int result = 0;
+  bool neg = false;
+  for (auto itr = X.begin(); itr < X.end(); itr++)
+  {
+    if (*itr == '-')
+    {
+      neg = true;
+    }
+    else
+    {
+      result =  (result * 10) + *itr-48;
+    }
+  }
+  if(neg) 
+    result *= -1;
+  std::cout << result;
+}
+
+int runStringToInt2(string &X)
+{
+  //string X = "-347";
+  int result = 0;
+  bool neg = false;
+  for (auto itr = X.begin(); itr < X.end(); itr++)
+  {
+    if (*itr == '-')
+    {
+      neg = true;
+    }
+    else
+    {
+      result = (result * 10) + *itr - 48;
+    }
+  }
+  if (neg)
+    result *= -1;
+
+  return result;
 }
