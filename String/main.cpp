@@ -6,9 +6,10 @@ void runStringStream();
 void runReverseVowels();
 void runIntToString();
 void runStringToInt();
+void runHexa();
 
 void main()
 {
-  runIntToString();
+  runHexa();
   std::cin.get();
 }
