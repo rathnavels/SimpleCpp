@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -7,5 +8,20 @@ std::vector<int> arr;
 
 void runMaxSubArray()
 {
-	arr = { 904,40,523,12,-355,-385,-124,481,4000,-200 };
+
+	int currentMax = 0, overallMax = 0;
+	arr = { -2,3,-2,-1,3,-2,5 };
+	for (int i = 0; i < arr.size()-1; i++)
+	{
+		int sum = 0;
+		currentMax = 0;
+		for (int j = i; j < arr.size(); j++)
+		{
+			sum += arr[j];
+			currentMax = max(currentMax, sum);
+		}
+		overallMax = max(overallMax, currentMax);
+	}
+
+	std::cout << overallMax;
 }
