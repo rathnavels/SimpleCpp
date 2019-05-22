@@ -6,8 +6,10 @@ void runGraph101();
 void runGraph102();
 void runGraph103();
 
+void runGraphDFS01();
+
 void main()
 {
-	runGraph103();
+	runGraphDFS01();
 	std::cin.get();
 }

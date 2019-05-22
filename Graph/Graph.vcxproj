@@ -113,6 +113,7 @@
     <ClCompile Include="Graph101.cpp" />
     <ClCompile Include="Graph102.cpp" />
     <ClCompile Include="Graph103.cpp" />
+    <ClCompile Include="GraphDFS01.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
