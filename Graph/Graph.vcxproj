@@ -113,8 +113,12 @@
     <ClCompile Include="Graph101.cpp" />
     <ClCompile Include="Graph102.cpp" />
     <ClCompile Include="Graph103.cpp" />
+    <ClCompile Include="GraphBFS01.cpp" />
     <ClCompile Include="GraphDFS01.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
