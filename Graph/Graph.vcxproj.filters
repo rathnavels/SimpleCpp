@@ -27,10 +27,10 @@
     <ClCompile Include="Graph103.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GraphDFS01.cpp">
+    <ClCompile Include="GraphDFS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GraphBFS01.cpp">
+    <ClCompile Include="GraphBFS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

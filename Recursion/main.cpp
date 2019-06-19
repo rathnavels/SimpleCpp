@@ -3,10 +3,13 @@
 int factorial(int);
 void runPalindromeCheck();
 void findPowerRecursion();
+void printNumbers(int);
 
-int main()
+void main()
 {
-  findPowerRecursion();
+
+  printNumbers(10);
+
   std::cin.get();
-  return 0;
+  
 }
