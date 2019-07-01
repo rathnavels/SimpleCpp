@@ -1,6 +1,7 @@
 #include <iostream>
 #include <list>
 #include <vector>
+#include <queue>
 
 using namespace std;
 
@@ -25,6 +26,7 @@ public:
 
 	bool isCyclicUtil(int v, vector<bool> &visited, vector<bool> &recStack);
 	void BFS(int s);
+	void RathBFS(int s);
 	void DFS(int s);
 	void DFSUtil(int s, vector<bool> &visited);
 };
@@ -95,6 +97,7 @@ bool Graph::isCyclicUtil(int v, vector<bool> &visited, vector<bool> &recStack)
 			}
 		}
 	}
+	return true;
 }
 
 bool Graph::isCyclic()
@@ -108,4 +111,25 @@ bool Graph::isCyclic()
 	}
 
 	return false;
+}
+
+
+void Graph::RathBFS(int s)
+{
+	std::queue<int> Q;
+
+	Q.push(s);
+
+	while (Q.size() != 0)
+	{
+		int elem = Q.front();
+		Q.pop();
+
+		std::cout << elem << " ";
+
+		for (auto itr = adj[elem].begin(); itr != adj[elem].end(); itr++)
+		{
+			Q.push(*itr);
+		}
+	}
 }

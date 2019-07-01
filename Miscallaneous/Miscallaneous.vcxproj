@@ -113,6 +113,8 @@
     <ClCompile Include="EPI_4_1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainCopy.cpp" />
+    <ClCompile Include="ObjectSize.cpp" />
+    <ClCompile Include="STLList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

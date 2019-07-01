@@ -7,9 +7,6 @@ void printNumbers(int);
 
 void main()
 {
-
   printNumbers(10);
-
   std::cin.get();
-  
 }
