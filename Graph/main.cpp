@@ -20,11 +20,12 @@ void main()
 	G.addEdge(2, 6);
 	G.addEdge(3, 7);
 	G.addEdge(4, 8);
+	G.addEdge(8, 8);
 	G.addEdge(4, 9);
 	G.addEdge(7, 10);
 	G.addEdge(10,11);
 
-	G.RathBFS(0);
+	G.noOfElemInLevel(2);
 
 
 	std::cin.get();
